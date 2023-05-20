@@ -30,13 +30,13 @@ This web app uses the following API routes to dynamically update the page to cre
 #### Get all Stories
 
 - Method: GET
-- URL: `/api/spots`
+- URL: `/api/stories`
 - Body: none
 
 #### Get all Stories owned by the Current User
 
 - Method: GET
-- URL: `/api/spots/current`
+- URL: `/api/stories/current`
 - Body: none
 
 ## Commenting on Stories
@@ -46,7 +46,7 @@ This web app uses the following API routes to dynamically update the page to cre
 #### Get all Comments of the Current User
 
 - Method: GET
-- URL: `/api/reviews/current`
+- URL: `/api/comments/current`
 - Body: none
 
 #### Get all Comments by a Story's ID
