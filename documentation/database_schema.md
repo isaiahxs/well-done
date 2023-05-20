@@ -7,9 +7,9 @@
 | column name | data type | details                   |
 |-------------|-----------|---------------------------|
 | userId     | integer   | not null, primary key     |
-| first_name  | string    | not null,                 |
-| last_name   | string    | not null,                 |
-| username    | string    | not null,                 |
+| first_name  | string    | not null                 |
+| last_name   | string    | not null                 |
+| username    | string    | not null, unique                |
 | email       | string    | not null, unique |
 | created_at  | datetime  | not null                  |
 | updated-at  | datetime  | not null                  |
