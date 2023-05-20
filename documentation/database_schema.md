@@ -40,7 +40,7 @@
 * `userId` references `users` table
 * `storyId` references `story` table
 
-## `fauxlikes`
+## `claps`
 
 | column name   | data type | details                        |
 |---------------|-----------|--------------------------------|
